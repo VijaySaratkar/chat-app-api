@@ -2,10 +2,10 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "Real-time chat application with Express and Socket.IO",
-  "main": "backend/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "build": "npm install --legacy-peer-deps && npm run build --prefix frontend"
   },
   "dependencies": {
