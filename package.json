@@ -2,10 +2,10 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/index.js",
-    "server": "nodemon backend/index.js",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "build": "echo 'No build step required'"
   },
   "keywords": [
